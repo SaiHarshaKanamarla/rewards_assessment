@@ -1,11 +1,64 @@
-{ "transactions" : [
-  { "customerId": 1, "transactionAmount": 120, "transactionDate":"Jan 1, 2022" },
-  { "customerId": 1, "transactionAmount": 80, "transactionDate": "Jan 15, 2022" },
-  { "customerId": 1, "transactionAmount": 100, "transactionDate": "Feb 1, 2022" },
-  { "customerId": 2, "transactionAmount": 150, "transactionDate": "Jan 1, 2022" },
-  { "customerId": 2, "transactionAmount": 70, "transactionDate": "Feb 1, 2022" },
-  { "customerId": 2, "transactionAmount": 90, "transactionDate": "Mar 1, 2022" },
-  { "customerId": 3, "transactionAmount": 90, "transactionDate": "Feb 15, 2022" },
-  { "customerId": 3, "transactionAmount": 120, "transactionDate": "Mar 1, 2022" },
-  { "customerId": 3, "transactionAmount": 200, "transactionDate": "Mar 15, 2022" }]
+{
+  "transactions": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "transactionAmount": 120,
+      "transactionDate": "Jan 1, 2022"
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "transactionAmount": 80,
+      "transactionDate": "Jan 15, 2022"
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "transactionAmount": 100,
+      "transactionDate": "Feb 1, 2022"
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "transactionAmount": 150,
+      "transactionDate": "Jan 1, 2022"
+    },
+    {
+      "id": 5,
+      "customerId": 2,
+      "transactionAmount": 70,
+      "transactionDate": "Feb 1, 2022"
+    },
+    {
+      "id": 6,
+      "customerId": 2,
+      "transactionAmount": 90,
+      "transactionDate": "Mar 1, 2022"
+    },
+    {
+      "id": 7,
+      "customerId": 3,
+      "transactionAmount": 90,
+      "transactionDate": "Feb 15, 2022"
+    },
+    {
+      "id": 8,
+      "customerId": 3,
+      "transactionAmount": 120,
+      "transactionDate": "Mar 1, 2022"
+    },
+    {
+      "id": 9,
+      "customerId": 3,
+      "transactionAmount": 200,
+      "transactionDate": "Mar 15, 2022"
+    },
+    {
+      "id": 10,
+      "customerId": 2,
+      "transactionAmount": 90,
+      "transactionDate": "Mar 2, 2022"
+    }
+  ]
 }

@@ -43,8 +43,24 @@ const RewardsProgram = () => {
 
     useEffect(() => {
         const getTransactions = async () => {
-            const response = await axios.get('http://localhost:3000/transactions')
-            setTransactionData(response.data)
+            await axios.get('http://localhost:3000/transactions')
+            .then((response) => {
+                setTransactionData(response.data)
+            })
+            .catch((error) => {
+                console.log(error)
+                if(error.response && error.response.status === 404){
+                    console.log("Error 404! Resource not found")
+                }
+                else if(error.code && error.code === "ERR_NETWORK"){
+                    console.log("500! Server not available")
+                }
+                else{
+                    console.log(error)
+                }
+                
+            })
+            
         }
 
         getTransactions();
