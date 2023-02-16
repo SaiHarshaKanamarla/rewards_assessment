@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 The package.json has an npm package installed called json-server : [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
 This allos us to get a full fake REST API with zero coding in less than 30 seconds
 
-The sample data needed to realize this is presentin db.json file in the project. To emulate a working REST API, you need to run ### `json-server --watch db.json`
+The sample data needed to realize this is present in db.json file in the project. To emulate a working REST API, you need to run **`json-server --watch db.json`**
 This will activate a mock REST server at PORT 3000
 
 When we start the react app, the prompt will ask us to run the react app on PORT 3001 which is fine.
