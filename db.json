@@ -1,0 +1,11 @@
+{ "transactions" : [
+  { "customerId": 1, "transactionAmount": 120, "transactionDate":"2022-01-01" },
+  { "customerId": 1, "transactionAmount": 80, "transactionDate": "2022-01-15" },
+  { "customerId": 1, "transactionAmount": 50, "transactionDate": "2022-02-01" },
+  { "customerId": 2, "transactionAmount": 150, "transactionDate": "2022-01-01" },
+  { "customerId": 2, "transactionAmount": 70, "transactionDate": "2022-02-01" },
+  { "customerId": 2, "transactionAmount": 90, "transactionDate": "2022-03-01" },
+  { "customerId": 3, "transactionAmount": 90, "transactionDate": "2022-02-15" },
+  { "customerId": 3, "transactionAmount": 120, "transactionDate": "2022-03-01" },
+  { "customerId": 3, "transactionAmount": 200, "transactionDate": "2022-03-15" }]
+}
